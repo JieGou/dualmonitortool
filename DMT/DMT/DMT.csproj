@@ -770,6 +770,7 @@
   <ItemGroup>
     <Content Include="DMT.ico" />
     <None Include="Resources\blank_16_16.png" />
+    <Content Include="DocumentImages\DualMonitorTools_SourceForge.png" />
     <Content Include="Resources\cursor_16_16.png" />
     <Content Include="Resources\DMT_16_16.png" />
     <Content Include="Resources\DualLauncher_16_16.png" />

@@ -48,6 +48,10 @@ namespace DMT
 		/// <param name="moduleService">The service providing information on the modules</param>
 		public OptionsForm(IModuleService moduleService)
 		{
+			//设置选项通过 IModuleService来进行关注点隔离
+			//具体的各项设置选项通过抽象类 abstract Module 的继承进一步实现细分
+			//这样组合在一起可以形成非常丰富的设置选项，但其每一个具体设置项都极大地方便维护 Nice。
+
 			_moduleService = moduleService;
 			InitializeComponent();
 		}
